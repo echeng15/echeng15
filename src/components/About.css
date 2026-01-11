@@ -1,5 +1,5 @@
 .about {
-  background: var(--bg-secondary);
+  padding-top: 120px;
 }
 
 .about-content {
@@ -22,6 +22,24 @@
   margin-top: var(--space-xl);
   padding-top: var(--space-xl);
   border-top: 1px solid var(--border);
+}
+
+.about-socials {
+  display: flex;
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--border);
+}
+
+.about-socials a {
+  color: var(--text-muted);
+  transition: all var(--transition-fast);
+}
+
+.about-socials a:hover {
+  color: var(--accent);
+  transform: translateY(-3px);
 }
 
 .stat {

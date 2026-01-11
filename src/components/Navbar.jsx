@@ -5,8 +5,6 @@ import './Navbar.css'
 const navLinks = [
   { name: 'About', href: '#about' },
   { name: 'Projects', href: '#projects' },
-  { name: 'Skills', href: '#skills' },
-  { name: 'Contact', href: '#contact' },
 ]
 
 function Navbar() {
@@ -18,7 +16,7 @@ function Navbar() {
       setScrolled(window.scrollY > 50)
 
       // Determine active section
-      const sections = ['about', 'projects', 'skills', 'contact']
+      const sections = ['about', 'projects']
       for (const section of sections.reverse()) {
         const element = document.getElementById(section)
         if (element) {
@@ -44,9 +42,7 @@ function Navbar() {
     >
       <div className="navbar-container">
         <a href="#" className="navbar-logo">
-          <span className="logo-bracket">[</span>
-          <span className="logo-text">portfolio</span>
-          <span className="logo-bracket">]</span>
+          Ethan Cheng
         </a>
 
         <ul className="navbar-links">

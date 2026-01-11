@@ -10,9 +10,9 @@
   --text-secondary: #a0a0a0;
   --text-muted: #666666;
   
-  --accent: #3b82f6;
-  --accent-hover: #60a5fa;
-  --accent-glow: rgba(59, 130, 246, 0.15);
+  --accent: #10b981;
+  --accent-hover: #34d399;
+  --accent-glow: rgba(16, 185, 129, 0.15);
   
   --border: #1f1f1f;
   --border-hover: #2a2a2a;
@@ -114,7 +114,7 @@ button {
 
 /* Section */
 .section {
-  padding: var(--space-3xl) 0;
+  padding: var(--space-2xl) 0;
 }
 
 .section-title {
