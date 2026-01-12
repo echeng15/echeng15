@@ -50,9 +50,11 @@ function About() {
             <div className="about-image">
               <div className="image-wrapper">
                 <img 
-                  src="/photo.jpg" 
+                  src="/photo Medium.jpeg" 
                   alt="Ethan Cheng" 
                   className="about-photo"
+                  loading="eager"
+                  decoding="sync"
                 />
                 <div className="image-border"></div>
               </div>

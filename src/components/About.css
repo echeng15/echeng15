@@ -64,20 +64,31 @@
 
 .about-image {
   position: relative;
+  width: 100%;
+  max-width: 300px;
 }
 
 .image-wrapper {
   position: relative;
+  width: 100%;
 }
 
 .about-photo {
   width: 100%;
+  height: auto;
   aspect-ratio: 1;
   object-fit: cover;
+  object-position: center;
   border-radius: var(--radius-md);
   position: relative;
   z-index: 1;
   display: block;
+  image-rendering: auto;
+  -ms-interpolation-mode: bicubic;
+  transform: translateZ(0);
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .image-border {
